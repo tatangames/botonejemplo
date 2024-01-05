@@ -12,10 +12,10 @@ class EjemploController extends Controller
 
     }
 
-    public function acceso(Request $request){
+    public function acceso(){
 
 
-        return ['success' => 1, "mensaje" => "llega al controlador"];
+        return ['success' => 1, "mensaje" => "llega al controlador tipo GET"];
 
 
     }

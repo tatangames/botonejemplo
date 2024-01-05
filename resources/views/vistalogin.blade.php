@@ -111,7 +111,7 @@
 
         var miLabel = document.getElementById("labelapi");
 
-        axios.post('/login', {
+        axios.get('/login', {
         })
             .then((respuesta) => {
 

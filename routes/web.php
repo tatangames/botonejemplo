@@ -17,4 +17,4 @@ use App\Http\Controllers\EjemploController;
 
 
 Route::get('/', [EjemploController::class,'index'])->name('login');
-Route::post('/login', [EjemploController::class,'acceso']);
+Route::get('/login', [EjemploController::class,'acceso']);
